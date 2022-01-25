@@ -1,0 +1,16 @@
+h1 {
+  background-color: aquamarine;
+  font-family: "Lato", sans-serif;
+}
+h2 {
+  background-color: azure;
+  font-family: "Lato", sans-serif;
+}
+.center {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: green;
+  height: 500px;
+  width: 600px;
+}
