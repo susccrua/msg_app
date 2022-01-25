@@ -19,10 +19,14 @@ const answers = [
 ];
 
 let question = constructQuestion();
+
 let answer = constructAnswer();
 
 element.innerHTML = question;
-element2.innerHTML = answer;
+element2.addEventListener("click", change);
+function change() {
+  element2.innerHTML = answer;
+}
 
 function pickAdjective() {
   const index = Math.floor(Math.random() * adjectives.length);

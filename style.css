@@ -1,16 +1,28 @@
 h1 {
-  background-color: aquamarine;
+  background-color: #ff7f24;
+  color: white;
   font-family: "Lato", sans-serif;
 }
 h2 {
-  background-color: azure;
+  background-color: #faffe8;
   font-family: "Lato", sans-serif;
 }
 .center {
   margin: auto;
+  position: relative;
+
   padding: 10px;
   text-align: center;
-  background-color: green;
-  height: 500px;
+  background-color: #caed4c;
+  height: 200px;
   width: 600px;
+}
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
